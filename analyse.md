@@ -183,26 +183,36 @@ Plus 14 species features, 4 state features, and 4 season features.
 ## Visualizations
 
 ### Correlation Matrix (Original Data)
-![Correlation Matrix - Original](images/correlation_matrix_original.png)
+<p align="center">
+  <img src="images/correlation_matrix_original.png" alt="Correlation Matrix - Original">
+</p>
 
 The correlation heatmap shows a moderate positive correlation of 0.25 between Height_Ave_cm and Pre_GSHH_NDVI in the original dataset.
 
 ### Correlation Matrix (After Outlier Removal)
-![Correlation Matrix - After Outlier Removal](images/correlation_matrix_cleaned.png)
+<p align="center">
+  <img src="images/correlation_matrix_cleaned.png" alt="Correlation Matrix - After Outlier Removal">
+</p>
 
 After removing IQR outliers, the correlation between Height_Ave_cm and Pre_GSHH_NDVI increased to 0.30, demonstrating a 5% improvement and indicating that outliers were weakening the relationship between these variables.
 
 ### Scatter Plot: Height_Ave_cm vs Pre_GSHH_NDVI
-![Scatter Plot of Height vs NDVI](images/height_vs_ndvi_scatter.png)
+<p align="center">
+  <img src="images/height_vs_ndvi_scatter.png" alt="Scatter Plot of Height vs NDVI">
+</p>
 
 This scatter plot visualizes the relationship between vegetation height and NDVI values. There's a moderate positive correlation, with most data points concentrated in the lower height range (1-5cm) across the full NDVI spectrum (0.16-0.91).
 
 ### Distribution of Height_Ave_cm by Season
-![Distribution of Height_Ave_cm by Season](images/height_by_season.png)
+<p align="center">
+  <img src="images/height_by_season.png" alt="Distribution of Height_Ave_cm by Season">
+</p>
 
 This violin plot shows the distribution of average height measurements across different seasons. Summer and Autumn show the widest range of values, with Summer reaching up to 80cm, while Winter shows the most compact distribution around lower values.
 
 ### Distribution of Height_Ave_cm by Species
-![Distribution of Height_Ave_cm by Species](images/height_by_species.png)
+<p align="center">
+  <img src="images/height_by_species.png" alt="Distribution of Height_Ave_cm by Species">
+</p>
 
 The violin plot reveals significant variation in height across different species. Lucerne and Phalaris show the greatest height ranges (up to 80cm), while species like SubcloverLosa and SubcloverDalkeith maintain consistently lower heights below 5cm.
