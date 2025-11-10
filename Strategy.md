@@ -2,7 +2,7 @@
 
 ## Dataset Assessment
 
-Your dataset (1,291 training images) is adequate for transfer learning but requires careful handling. Studies show similar agricultural datasets (800-1,200 samples) achieve R²=0.80-0.90 with proper augmentation and pretrained models.
+The dataset (1,291 training images) is adequate for transfer learning but requires careful handling. Studies show similar agricultural datasets (800-1,200 samples) achieve R²=0.80-0.90 with proper augmentation and pretrained models.
 
 ## Optimal Model Architecture
 
@@ -108,5 +108,6 @@ for img_id, pred in zip(test_ids, predictions):
 4. Weighted loss [0.1, 0.1, 0.1, 0.2, 0.5]
 5. 5-fold cross-validation + ensemble
 6. Dropout + early stopping
+
 
 **Target**: Weighted R² > 0.80 (competitive), realistically expect 0.82-0.88 with proper implementation.
